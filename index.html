@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="contain">
+
+        <div class="conatiner">
+            <div class="yellow"></div>
+            <h1>To-Do List</h1>
+            <div class="icon">
+                <svg class="sortIcon" width="25" height="15" viewBox="0 0 25 15" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <style>
+                        .sortIcon rect,
+                        .sortIcon path {
+                            transition: fill 0.3s ease-in-out;
+                        }
+
+                        .sortIcon:hover rect,
+                        .sortIcon:hover path {
+                            fill: #000;
+                        }
+                    </style>
+                    <rect x="2.5" width="2.5" height="12.5" fill="#C4C4C4" />
+                    <rect x="10" y="3.75" width="2.5" height="7.5" transform="rotate(-90 10 3.75)" fill="#C4C4C4" />
+                    <rect x="10" y="8.75" width="2.5" height="10" transform="rotate(-90 10 8.75)" fill="#C4C4C4" />
+                    <rect x="10" y="13.75" width="2.5" height="15" transform="rotate(-90 10 13.75)" fill="#C4C4C4" />
+                    <path d="M3.75 15L0.502405 10.3125L6.9976 10.3125L3.75 15Z" fill="#C4C4C4" />
+                </svg>
+                <svg class="sortIconReverse" width="25" height="15" viewBox="0 0 25 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <style>
+                        .sortIconReverse rect,
+                        .sortIconReverse path {
+                            transition: fill 0.3s ease-in-out;
+                        }
+
+                        .sortIconReverse:hover rect,
+                        .sortIconReverse:hover path {
+                            fill: #000;
+                        }
+                    </style>
+                    <rect x="5" y="15" width="2.5" height="12.5" transform="rotate(-180 5 15)" fill="#C4C4C4"/>
+                    <rect x="10" y="3.75" width="2.5" height="7.5" transform="rotate(-90 10 3.75)" fill="#C4C4C4"/>
+                    <rect x="10" y="8.75" width="2.5" height="10" transform="rotate(-90 10 8.75)" fill="#C4C4C4"/>
+                    <rect x="10" y="13.75" width="2.5" height="15" transform="rotate(-90 10 13.75)" fill="#C4C4C4"/>
+                    <path d="M3.75 6.55671e-07L6.99759 4.6875L0.502404 4.6875L3.75 6.55671e-07Z" fill="#C4C4C4"/>
+                    </svg>
+                    
+            </div>
+            <div class="inputDiv">
+                <div class="input">
+                    <input type="text" id="input">
+                    <div class="delete">
+                        <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M1 1L9 9" stroke="#C4C4C4" />
+                            <path d="M1 9L9 1" stroke="#C4C4C4" />
+                        </svg>
+
+                    </div>
+                </div>
+            </div>
+            <div class="listDiv"></div>
+            <div class="button-box">
+                <div class="plus">+</div>
+                <button class="button">Добавить</button>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
