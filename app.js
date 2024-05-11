@@ -71,7 +71,7 @@ icon.addEventListener('click', function() {
         sortIconReverse.style.display = "block";
         icon.style.display = "none";
     } else {
-        listArray.sort().reverse(); // Sort and reverse the list in one step
+        listArray.sort().reverse(); 
         icon.style.display = "block";
         sortIconReverse.style.display = "none";
     }
@@ -85,7 +85,7 @@ sortIconReverse.addEventListener('click', function() {
         icon.style.display = "block";
         sortIconReverse.style.display = "none";
     } else {
-        listArray.sort().reverse(); // Sort and reverse the list in one step
+        listArray.sort().reverse(); 
         icon.style.display = "block";
         sortIconReverse.style.display = "none";
     }
