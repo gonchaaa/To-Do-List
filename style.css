@@ -77,6 +77,7 @@
 }
 .contain .conatiner .listDiv .list-div .text {
   width: 90%;
+  overflow-wrap: break-word;
 }
 .contain .conatiner .listDiv .list-div .delete {
   width: 10px;

@@ -56,7 +56,7 @@ addButton.addEventListener('click', function() {
         input.value = ''; 
         inputDiv.style.display = "none"; 
     } else {
-        console.log("Please enter some text.");
+        alert("Please enter some text.");
     }
 });
 
